@@ -1,0 +1,201 @@
+body {
+  text-align: justify;
+  margin: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(kopi.avif);
+}
+
+  
+h1 {
+  text-align: center; /* Tengahkan teks secara horizontal */
+  font-size: 24px; /* Sesuaikan ukuran font sesuai keinginan */
+  color: #ffffff; /* A/tur warna teks sesuai keinginan Anda */
+}
+
+  
+  table {
+    width: 75%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgba(236, 145, 48, 0.999); /* Efek transparansi putih */
+  }
+  
+  
+  th, td {
+    padding: 10px;
+    border-bottom: 2px solid #b81212;
+    border: 3px solid #faf7f7;
+    background-color: rgba(242, 238, 238, 0.9); 
+  }
+  
+  tr:nth-child(n+2):nth-last-child(n+3) {
+    background-color: #000000;
+  }
+  
+  th {
+    background-color: #765300;
+    color: rgb(0, 0, 0);
+    border: 2px solid #ffffff;
+  }
+  
+  input[type="number"] {
+    width: 100px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #2eca89;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    flex-basis: 48%;
+     font-weight: bold;
+  }
+  
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+
+.pos-title {
+  margin-bottom: 30px; 
+}
+
+.customer-info {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+  .summary {
+    margin-top: 20px;
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+ 
+.summary {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ca8b48;
+    color: rgb(0, 0, 0);
+    border: 3px solid #fbf7f7;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+  label[for="customerName"], label[for="purchaseDate"] {
+    display: block;
+    margin-bottom: 5px;
+    margin-right: auto;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bolder;
+    color: #996414;
+    width: 120px; 
+    text-align: right; 
+    margin-right: 20px; 
+  }  
+
+  #content {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+
+  input[type="text"], input[type="date"] {
+    padding: 5px;
+    border: 2px solid #d4a327;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  label[for="initialBalance"] {
+    color: #ffffff; /* Ubah warna sesuai keinginan Anda */
+    font-weight: bolder;
+  }
+
+  label[for="change"] {
+    color: #f3a847; /* Ubah warna sesuai keinginan Anda */
+    font-weight: bolder;
+  }
+
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    width: 500px; 
+    max-width: 1000%;
+    text-align: center; 
+  }
+
+  td#total,
+  td#totalPayment {
+    font-weight: bold;
+    padding-top: 10px;
+  }
+  
+  td.subtotal {
+    padding-top: 10px;
+  }
+  
+  #inputFields {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  #customerName,
+#purchaseDate {
+  width: 200px;
+  padding: 10px;
+  border: 3px solid #1081aa;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+#customerName,
+#purchaseDate {
+  width: 200px;
+  padding: 10px;
+  border: 3px solid #000000;
+  border-radius: 6px;
+  font-size: bold;
+}
+
+
+#initialBalance {
+  width: 150px;
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#change {
+  width: 150px;
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+}
